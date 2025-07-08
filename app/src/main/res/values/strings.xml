@@ -2,4 +2,12 @@
     <string name="app_name">Agri</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="loading">loading...</string>
+    <string name="google_failed">google_failed</string>
+    <string name="authentication_failed">authentication_failed</string>
+    <string name="failed_to_check_user_existence">failed_to_check_user_existence</string>
+    <string name="failed_to_store_data">failed_to_store_data</string>
 </resources>

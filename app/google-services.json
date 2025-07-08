@@ -1,0 +1,180 @@
+{
+  "project_info": {
+    "project_number": "26188423991",
+    "firebase_url": "https://esp32-787e0-default-rtdb.firebaseio.com",
+    "project_id": "esp32-787e0",
+    "storage_bucket": "esp32-787e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26188423991:android:3810f70d98557e6a1270b2",
+        "android_client_info": {
+          "package_name": "com.AuroraSphere.ufo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26188423991-14le3l92cgb5raq6u4sle2i4aq47p0k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AuroraSphere.ufo",
+            "certificate_hash": "087c47adc3c40e92919a9018ae3254323ea4edd9"
+          }
+        },
+        {
+          "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcmgj1SnV9OLm19uyjsaH_70zln5KW1-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26188423991:android:ee2ac6c12c9ec16a1270b2",
+        "android_client_info": {
+          "package_name": "com.aurorasphere.agri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcmgj1SnV9OLm19uyjsaH_70zln5KW1-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26188423991:android:3e2d4d3f6760ded11270b2",
+        "android_client_info": {
+          "package_name": "com.aurorasphere.agriflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26188423991-j870ra7bmona8kft1tk0fvqhq85pfel5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurorasphere.agriflow",
+            "certificate_hash": "087c47adc3c40e92919a9018ae3254323ea4edd9"
+          }
+        },
+        {
+          "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcmgj1SnV9OLm19uyjsaH_70zln5KW1-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26188423991:android:80d6c8445f22058c1270b2",
+        "android_client_info": {
+          "package_name": "com.aurorasphere.smartsbmp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26188423991-9on98hcq96171m1lq34maoqgv3ckursk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurorasphere.smartsbmp",
+            "certificate_hash": "087c47adc3c40e92919a9018ae3254323ea4edd9"
+          }
+        },
+        {
+          "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcmgj1SnV9OLm19uyjsaH_70zln5KW1-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26188423991:android:4fd7522f6d0f01451270b2",
+        "android_client_info": {
+          "package_name": "com.aurorasphere.soilsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcmgj1SnV9OLm19uyjsaH_70zln5KW1-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26188423991-cdms7ul2rp5emcaal9bb7utr0gaukucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
