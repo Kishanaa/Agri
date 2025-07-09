@@ -1,3 +1,5 @@
 Agri is a sustainability-focused Android application designed to assist farmers in monitoring real-time soil moisture, temperature, and humidity using **IoT sensors**. The app empowers small-scale farmers with data-driven insights, personalized crop care recommendations and offline support in regional languages. By promoting efficient water usage, climate resilience, and sustainable agriculture practices, AgriCrop bridges technology and tradition to make precision farming accessible and impactful in rural communities.  
 Crop data is sourced from Indian Council of Agricultural Research (ICAR), and weather insights are provided by India Meteorological Department (IMD).  
-**Video link** - [Watch Demo](https://drive.google.com/file/d/1CrIsgDZbqva_leMKKyjfYvL8Zlp47p-D/view?usp=drivesdk)
+**Video link** - [Watch Demo](https://drive.google.com/file/d/1CrIsgDZbqva_leMKKyjfYvL8Zlp47p-D/view?usp=drivesdk)  
+**PPT link** - [Watch Demo](https://docs.google.com/presentation/d/1GWcbduJFLTz7aqAvztaZP1Flcpdw5HXe/edit?usp=drivesdk&ouid=109958130490013724270&rtpof=true&sd=true)  
+**App link** - [Watch Demo](https://drive.google.com/file/d/1GLcFGj1YjNJj1SzslKy0bJnkYkejRA6p/view?usp=drivesdk)
