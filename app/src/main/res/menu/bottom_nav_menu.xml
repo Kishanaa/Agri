@@ -7,12 +7,12 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/nav_setting"
+        android:id="@+id/nav_chart"
         android:icon="@drawable/agriculture"
         android:title="Agriculture" />
 
     <item
-        android:id="@+id/nav_chart"
+        android:id="@+id/nav_setting"
         android:icon="@drawable/history"
         android:title="Info" />
 

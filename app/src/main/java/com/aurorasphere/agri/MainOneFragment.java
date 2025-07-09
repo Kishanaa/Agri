@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -32,11 +33,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link MainOneFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class MainOneFragment extends Fragment {
 
     private static final String WEATHER_API_KEY = "f7af3617bcaa54d84729b512d0fd1965";
@@ -46,6 +43,7 @@ public class MainOneFragment extends Fragment {
 
     String cityName_search, humidity_re, moisture_re, tempMx_re, tempMn_re;
     ImageView weatherIcon;
+    CardView cardView6;
 
     private DatabaseReference databaseReference;
     private ValueEventListener sensorListener;
@@ -72,6 +70,7 @@ public class MainOneFragment extends Fragment {
         humidity_reTx = view.findViewById(R.id.humidity_reTx);
         moisture_reTx = view.findViewById(R.id.moisture_reTx);
         temp_reTx = view.findViewById(R.id.temp_reTx);
+        cardView6 = view.findViewById(R.id.cardView6);
 
         // Load saved crop selection
         CropSelectionManager.loadSelection(requireContext());
@@ -86,6 +85,7 @@ public class MainOneFragment extends Fragment {
             String sowing = info.sowingWindow;
             String harvest = info.harvestWindow;
 
+            cardView6.setVisibility(View.VISIBLE);
             cropName_tx.setText(cropName);
             city_tx.setText(cityName);
             cityName_search = cityName;
@@ -94,6 +94,7 @@ public class MainOneFragment extends Fragment {
             temp_reTx.setText(tempMx_re + "°C / " + tempMn_re + "°C");
             start_end_date_tx.setText(sowing + " to " + harvest);
         } else {
+            cardView6.setVisibility(View.GONE);
             cropName_tx.setText("No selection");
             city_tx.setText("");
             cityName_search = "Gwalior";
