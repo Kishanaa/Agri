@@ -2,6 +2,7 @@ package com.aurorasphere.agri;
 
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ import android.widget.Toast;
 public class MainTwoFragment extends Fragment {
 
     TextView stateName_tx,cityName_tx,cultivation_tx,price_tx;
+    CardView scanner;
 
     public MainTwoFragment() {
         // Required empty public constructor
@@ -33,6 +35,7 @@ public class MainTwoFragment extends Fragment {
         cityName_tx = view.findViewById(R.id.cityName_tx);
         cultivation_tx = view.findViewById(R.id.cultivation_tx);
         price_tx = view.findViewById(R.id.price_tx);
+        scanner = view.findViewById(R.id.scanner);
 
         CropSelectionManager.loadSelection(requireContext());
 
@@ -40,6 +43,12 @@ public class MainTwoFragment extends Fragment {
         String city = CropSelectionManager.getSelectedCity();
         String crop = CropSelectionManager.getSelectedCrop();
         CropInfo info = CropSelectionManager.getSelectedCropInfo();
+        scanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(requireContext(), "Future Implementation", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         if (state != null && city != null && crop != null && info != null) {
             stateName_tx.setText(state);
