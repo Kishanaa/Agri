@@ -84,6 +84,7 @@ public class MainOneFragment extends Fragment {
             tempMn_re = String.valueOf(info.select_tempMin);
             String sowing = info.sowingWindow;
             String harvest = info.harvestWindow;
+            windText.setText("No selection");
 
             cardView6.setVisibility(View.VISIBLE);
             cropName_tx.setText(cropName);
@@ -97,6 +98,7 @@ public class MainOneFragment extends Fragment {
             cardView6.setVisibility(View.GONE);
             cropName_tx.setText("No selection");
             city_tx.setText("");
+            descriptionText.setText("");
             cityName_search = "Gwalior";
             start_end_date_tx.setText("");
         }
