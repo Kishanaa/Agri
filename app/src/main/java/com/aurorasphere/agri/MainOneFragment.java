@@ -36,7 +36,7 @@ import okhttp3.Response;
 
 public class MainOneFragment extends Fragment {
 
-    private static final String WEATHER_API_KEY = "f7af3617bcaa54d84729b512d0fd1965";
+    private static final String WEATHER_API_KEY = ".....use your api";
 
     TextView humidity_tx, temp_tx, soil_moisture_tx, windText, descriptionText,
             cropName_tx, start_end_date_tx, city_tx, humidity_reTx, moisture_reTx, temp_reTx;
