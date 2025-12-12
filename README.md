@@ -1,5 +1,38 @@
-Agri is a sustainability-focused Android application designed to assist farmers in monitoring real-time soil moisture, temperature, and humidity using **IoT sensors**. The app empowers small-scale farmers with data-driven insights, personalized crop care recommendations and offline support in regional languages. By promoting efficient water usage, climate resilience, and sustainable agriculture practices, AgriCrop bridges technology and tradition to make precision farming accessible and impactful in rural communities.  
-Crop data is sourced from Indian Council of Agricultural Research (ICAR), and weather insights are provided by India Meteorological Department (IMD).  
-**Video link** - [Watch Demo](https://drive.google.com/file/d/1CrIsgDZbqva_leMKKyjfYvL8Zlp47p-D/view?usp=drivesdk)  
-**PPT link** - [Watch Demo](https://docs.google.com/presentation/d/1GWcbduJFLTz7aqAvztaZP1Flcpdw5HXe/edit?usp=drivesdk&ouid=109958130490013724270&rtpof=true&sd=true)  
-**App link** - [Watch Demo](https://drive.google.com/file/d/1GLcFGj1YjNJj1SzslKy0bJnkYkejRA6p/view?usp=drivesdk)
+🌳 ForestGuard
+
+A two-part elephant detection and forest safety system used by villagers and the Forest Department.
+
+📱 ForestGuard — Android Application
+
+Users can access the app only after entering the correct pincode: 474006.
+After entering the pincode, they choose Forest Department or Villager, then sign in using Google.
+
+Features
+
+View detected elephant images and locations by selecting a date
+
+Enter phone number and send SMS alerts
+
+Change language anytime
+
+Graphs & Analytics
+
+24-hour line chart (hourly elephant detection)
+
+Monthly heatmap (detection frequency)
+
+Report Elephant: users can report live elephant sightings
+
+See Reports: Forest Department can view all submitted reports and take action
+
+💻 forest_guard — Flutter Web Application
+
+Designed for Forest Department officials.
+
+Features
+
+24-hour elephant detection line chart
+
+Monthly heatmap showing detection frequency
+
+Map view showing the latest elephant detection location
